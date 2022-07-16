@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
+
+:root {
+    --Violet_rgb: rgb(55, 27, 88);
+    --Violet_rgb2: rgb(91, 75, 138);
+    --Discord_rgb: (88, 101, 242);
+    --Font: 'Karla', sans-serif;
+    --Delay: .4s;
+}
+
+
+body {
+    display: block;
+    min-height: 970px;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Font);
+    background: linear-gradient(var(--Violet_rgb) 65%, var(--Violet_rgb2) 100%);  
+    
+
+    
+}
+#Profile_picture img {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: 40px auto 20px;
+    border-radius: 50%;
+    -webkit-tap-highlight-color: transparent;
+}
+.Username {
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--Font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+#links {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 25px auto;
+}
+.Discord {
+    position: relative;
+    background-color: transparent;
+    color: black;
+    border: solid white 2px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Discord:hover {
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 6px white;
+}
+.Tiktok {
+    position: relative;
+    background-color: transparent;
+    color: black;
+    border: solid white 2px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.Tiktok:hover {
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 6px white;
+}
+
+.Credits{
+    position: relative;
+    font-size: small;
+    text-align: center;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
